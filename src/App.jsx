@@ -19,6 +19,7 @@ function App() {
           <Route path="/accessories" element={<Accessories />} />
           <Route path="/mac" element={<Mac />} />
           <Route path="/tvhome" element={<TvHome />} />
+          <Route path="/product:id" element={<ProductDetail />} />
         </Routes>
       </div>
       <footer className="bg-[#f5f5f7] py-16 mt-10 border-t border-gray-200">
