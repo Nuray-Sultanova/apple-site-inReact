@@ -1,16 +1,19 @@
 import React from "react";
 import MacAnimasiya from "../Components/MacAnimasiya";
+import MacSection1 from "../Components/MacSection1";
 
 const Mac = () => {
   return (
-    <div className="max-w-5xl mx-auto ">
-      <div className="max-w-4xl mx-auto py-4 text-center">
-        <p className="font-md  text-xs">
-          The Apple Shopping Event is coming. From November 25 to 28 get an
-          Apple Gift Card when you buy an eligible product.**
+    <div className="max-w-6xl mx-auto font-sans antialiased ">
+      {/* Üst Banner */}
+      <div className="max-w-4xl mx-auto py-5 text-center">
+        <p className="text-[11px] md:text-xs text-slate-500 font-medium tracking-tight uppercase">
+          The Apple Shopping Event is coming. Nov 25-28.
         </p>
       </div>
+
       <MacAnimasiya />
+      <MacSection1 />
     </div>
   );
 };
