@@ -9,7 +9,7 @@ const Navbar = () => {
     { name: "iPhone", path: "/iphone" },
     { name: "Watch", path: "/watch" },
     { name: "AirPods", path: "/airpods" },
-    { name: "TV & Home", path: "/tv-home" },
+    { name: "TV & Home", path: "/tvhome" },
     { name: "Only on Apple", path: "/only-on-apple" },
     { name: "Accessories", path: "/accessories" }, 
     { name: "Support", path: "/support" }
