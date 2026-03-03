@@ -11,18 +11,15 @@ const Navbar = () => {
     { name: "AirPods", path: "/airpods" },
     { name: "TV & Home", path: "/tv-home" },
     { name: "Only on Apple", path: "/only-on-apple" },
-    { name: "Accessories", path: "/accessories" }, // App.jsx-dəki path ilə eyni olmalıdır
+    { name: "Accessories", path: "/accessories" }, 
     { name: "Support", path: "/support" }
   ];
 
   return (
     <nav className="w-full bg-[#161617]/95 backdrop-blur-md z-50 fixed top-0 left-0">
-      {/* Fixed top-0 əlavə etdim ki, səhifəni aşağı çəkəndə navbar yuxarıda yapışıb qalsın.
-        Apple saytındakı hündürlük tam olaraq 44px-dir.
-      */}
+      
       <div className="max-w-5xl mx-auto flex items-center justify-between h-11 px-4">
         
-        {/* Apple Logosu - Link teqi ilə */}
         <Link to="/" className="opacity-80 hover:opacity-100 transition-opacity">
           <Apple size={16} color="white" fill="white" />
         </Link>
