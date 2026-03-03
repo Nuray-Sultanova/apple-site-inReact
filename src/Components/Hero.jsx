@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="relative w-full h-125 my-2 px-8">
-      {/*scroll bar gizletmek*/}
+      {/*scroll bar */}
       <div className="flex gap-20 overflow-x-scroll h-full snap-x snap-mandatory scroll-smooth 
                       [ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
 
