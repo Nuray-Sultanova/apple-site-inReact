@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"; // Link-i mütləq import etməlisən
+import { Link } from "react-router-dom"; 
 import { Apple, Search, ShoppingBag } from "lucide-react";
 
 const Navbar = () => {
