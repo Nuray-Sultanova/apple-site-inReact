@@ -1,6 +1,7 @@
 import React from "react";
 import MacAnimasiya from "../Components/MacAnimasiya";
 import MacSection1 from "../Components/MacSection1";
+import MacSection2 from "../Components/MacSection2";
 
 const Mac = () => {
   return (
@@ -14,6 +15,7 @@ const Mac = () => {
 
       <MacAnimasiya />
       <MacSection1 />
+      <MacSection2/>
     </div>
   );
 };
