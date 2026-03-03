@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom"; // Link-i import etməyi unutma
+import { Link } from "react-router-dom"; 
 
 const Footer = () => {
-  // Apple stili üçün link və başlıq stilləri
   const linkStyle = "block cursor-pointer hover:underline text-[#6e6e73] transition-colors";
   const titleStyle = "font-semibold mb-2 text-[#1d1d1f] text-[12px]";
 
