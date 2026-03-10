@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, ChevronRight } from "lucide-react";
 
 const Accessories = () => {
-  const [searchTerm, setSearchTerm] = useState("");
 
   const products = [
     { name: "Mac", icon: "💻" },

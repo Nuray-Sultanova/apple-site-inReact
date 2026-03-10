@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full bg-[#161617]/95 backdrop-blur-md z-50 fixed top-0 left-0">
+    <nav className="w-full bg-[#161617]/95  z-9 fixed top-0 left-0">
       
       <div className="max-w-5xl mx-auto flex items-center justify-between h-11 px-4">
         
@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
 
         {/* Menyu Linkləri */}
-        <div className="hidden md:flex items-center justify-between flex-1 max-w-200 px-8">
+        <div className="hidden md:flex items-center justify-between flex-1 max-w-200 ">
           {navLinks.map((link) => (
             <Link 
               key={link.name} 

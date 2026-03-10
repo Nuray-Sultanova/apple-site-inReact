@@ -1,4 +1,3 @@
-import Heading from "../Components/heading";
 import Images from "../Components/Images";
 import Hero from "../Components/Hero";
 import { Link } from "react-router-dom"; // Link istifadəsi vacibdir
@@ -7,7 +6,7 @@ const Home = () => {
   return (
     <>
       {/* 1. BLACK SECTION: APPLE SHOPPING EVENT */}
-      <section className="bg-black min-h-screen flex flex-col items-center">
+      <section className="bg-black min-h-screen flex flex-col items-center pt-11">
         <header className="flex-1 flex flex-col items-center justify-center text-center px-6 pt-10">
           <div className="max-w-200">
             <h1 className="text-white text-5xl md:text-7xl font-semibold tracking-tight">
@@ -37,7 +36,7 @@ const Home = () => {
         </header>
       </section>
 
-      <main className="flex flex-col gap-3 mt-3">
+      <main className="flex flex-col">
         {/* 2. MOVIE SECTION: SPIRITED */}
         <section
           className="h-150 md:h-screen bg-cover bg-center relative"
@@ -97,7 +96,6 @@ const Home = () => {
           </div>
         </section>
 
-     
         <Images />
         <Hero />
       </main>
