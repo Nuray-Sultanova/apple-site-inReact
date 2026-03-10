@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import Accessories from "./Pages/Accessories";
 import Mac from "./Pages/Mac";
 import TvHome from "./Pages/TvHome";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   return (
@@ -12,13 +13,13 @@ function App() {
       <div className="w-full z-50">
         <Navbar />
       </div>
-      {/*very important*/}
       <div className="pt-11">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/accessories" element={<Accessories />} />
           <Route path="/mac" element={<Mac />} />
           <Route path="/tvhome" element={<TvHome />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <footer className="bg-[#f5f5f7] py-16 mt-10 border-t border-gray-200">

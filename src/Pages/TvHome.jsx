@@ -16,7 +16,7 @@ const TvHome = () => {
         console.error("API Error:", err);
       });
   }, []);
-console.log(motion); 
+  console.log(motion);
   return (
     <div className="max-w-7xl mx-auto font-sans antialiased my-12 px-6">
       <div className="mb-12">
