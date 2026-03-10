@@ -38,7 +38,7 @@ const TvHome = () => {
                 delay: index * 0.1,
                 ease: "easeOut",
               }}
-              className="group relative bg-white border border-slate-100 rounded-[2.5rem] p-8 flex flex-col justify-between shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out cursor-pointer overflow-hidden min-h-[500px]"
+              className="group relative bg-white border border-slate-100 rounded-[2.5rem] p-8 flex flex-col justify-between shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out cursor-pointer overflow-hidden min-h-125"
             >
               <div>
                 <p className="text-[10px] font-bold tracking-[0.15em] text-blue-600 uppercase mb-2">

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
 const NotFound = () => {
+  console.log(motion)
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-6 text-center">
       <motion.div
